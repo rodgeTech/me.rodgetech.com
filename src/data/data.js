@@ -1,10 +1,10 @@
 module.exports = {
-  SiteTitle: 'Abdelali',
-  Sitelogo: '#',
-  SiteLogoText: 'Abdelali',
-  SiteAuthor: 'Abdelali Dahir',
-  SiteDescription: 'Front End Developer',
-  defaultDescription: 'Software engineer!', 
+  SiteTitle: "rodgeTech",
+  Sitelogo: "#",
+  SiteLogoText: "rodgeTech",
+  SiteAuthor: "Luis Rodriguez",
+  SiteDescription: "Full Stack Developer",
+  defaultDescription: "Software engineer!",
   githubApiQuery: `query ($number_of_repos: Int!) {
     viewer {
       name
@@ -40,21 +40,21 @@ module.exports = {
   }`,
   githubApiVariables: {
     number_of_repos: 12,
-  }, 
+  },
   SiteSocialLinks: {
-    twitter: 'https://twitter.com/AbdaliDahir',
-    github: 'https://github.com/AbdaliDahir',
-    linkedin: 'https://www.linkedin.com/in/abdelali-dahir-0b5344111/',
+    twitter: "https://twitter.com/AbdaliDahir",
+    github: "https://github.com/luisrodge",
+    linkedin: "https://www.linkedin.com/in/rodriglu/",
   },
   SiteAddress: {
-    city: 'Casablanca',
-    region: 'CurvaSud',
-    country: 'Morocco',
-    zipCode: 'ZipCode',
+    city: "Santa Elena",
+    region: "Cayo",
+    country: "Belize",
+    zipCode: "ZipCode",
   },
   SiteContact: {
-    email: 'abdali.dahir@gmail.com',
-    phone: 'phone number',
+    email: "rodgetech@gmail.com",
+    phone: "501-608-2077",
   },
-  SiteCopyright: '2020',
-};
+  SiteCopyright: "2021",
+}
