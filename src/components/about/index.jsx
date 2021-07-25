@@ -32,9 +32,8 @@ const About = () => {
               <Text>
                 {" "}
                 I'm a full stack developer hailing from{" "}
-                <b className="text-primary lined-link">Belize</b> living in
-                Santa Elena with a burning 🔥 passion for all things coding and
-                tech.{" "}
+                <b className="text-primary lined-link">Belize</b> living in Cayo
+                with a burning 🔥 passion for all things coding and tech.{" "}
               </Text>
               <Text>
                 {" "}

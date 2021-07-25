@@ -1,43 +1,37 @@
 ---
-title: League of Legends
-tags: ['Adobe xd', 'css', 'js', 'dashboard']
-category: mobile-ui
-image: './salty_egg.jpg'
+title: bmmerce
+tags: ["react native", "node js", "ruby on rails"]
+category: mobile development
+image: "./cover.png"
 date: "2015-05-01T22:12:03.284Z"
-description: "League of Legends is a multiplayer online battle arena video game developed and published by Riot Games for Microsoft Windows and macOS. Inspired by Defense of the Ancients, the game follows a freemium model. The game was released on October 27, 2009"
+description: "My first react-native app. Discover how I went about designing and developing this app when I had no prior knowledge of react-native or app development in general."
 ---
 
+bmmerce is an app that allows you to buy and sell stuff nearby.It connects sellers with the nearest buyers thus making buying and selling in Belize as simple as meeting and exchanging.
 
-Choose Your Champion
---------------------------
-Whether you like to dive straight into the fray, support your teammates, or something in between, there’s a spot for you on the Rift.
+In its current state bmmerce is an in-person transaction first service, and because of this buyers & sellers become more than just buyers & sellers; they become legitimate vouchers for one another. All of this evaluates to a more reliable and trustworthy buy and sell platform for Belizeans to utilize.
 
-Assassin
+![app screen](./app-screens.png)
 
-![champion akali](https://lolstatic-a.akamaihd.net/frontpage/apps/prod/harbinger-l10-website/en-gb/production/en-gb/static/assassin-d64d3ffdda15e1eed637aefe6a2c7fee.png#imgresponsive)
+# Main Features
 
-Fighter
+## Browse nearby stuff to buy.
 
-![champion Yassuo](https://lolstatic-a.akamaihd.net/frontpage/apps/prod/harbinger-l10-website/en-gb/production/en-gb/static/fighter-7a08920b696ecdb673edeeae1d3c616e.png#imgresponsive)
+## Post to sell. Nearby users are instantly notified of your new listing.
 
-Mage
+## Receive notifications when someone nearby posts something new to sell.
 
-![champion lux](https://lolstatic-a.akamaihd.net/frontpage/apps/prod/harbinger-l10-website/en-gb/production/en-gb/static/mage-3bfa6dfe620adafe5e539c2e470f4acc.png#imgresponsive)
+## Engage with nearby buyers & sellers. Message to meet & exchange.
 
-support
+## Manage all your listings.
 
-![champion akali](https://lolstatic-a.akamaihd.net/frontpage/apps/prod/harbinger-l10-website/en-gb/production/en-gb/static/support-d63ae08baf517425864ddc020a5871d5.png#imgresponsive)
+### Listings are deactivated after 30 days. This keeps the app from getting clogged up with old listings and gives everyone's listings fair exposure.
 
-I'm sure I'll write a lot more interesting things in the future.
+\
+&nbsp;
 
-Oh, and here's a great quote from this Wikipedia on
-[salted duck eggs](https://en.wikipedia.org/wiki/Salted_duck_egg).
+# Summary
 
-> A salted duck egg is a Chinese preserved food product made by soaking duck
-> eggs in brine, or packing each egg in damp, salted charcoal. In Asian
-> supermarkets, these eggs are sometimes sold covered in a thick layer of salted
-> charcoal paste. The eggs may also be sold with the salted paste removed,
-> wrapped in plastic, and vacuum packed. From the salt curing process, the
-> salted duck eggs have a briny aroma, a gelatin-like egg white and a
-> firm-textured, round yolk that is bright orange-red in color.
+I took on this project with the goal of learning react native as well as learning the fundamentals of mobile development. In completion of this project I managed to grasp a solid understanding of react native but even more importantly I learnt what it took to take an app from idea to design and from design to implementation and finally to publishing on the google playstore. I was unable to publish to the appstore because at the time I did not have an apple computer and it is required by Apple for you to have macOS in order to create a production build.
 
+The app is currently unavailable for downloading as I intend to migrate it from DigitalOcean over to AWS.

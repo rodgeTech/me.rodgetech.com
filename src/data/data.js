@@ -42,7 +42,6 @@ module.exports = {
     number_of_repos: 12,
   },
   SiteSocialLinks: {
-    twitter: "https://twitter.com/AbdaliDahir",
     github: "https://github.com/luisrodge",
     linkedin: "https://www.linkedin.com/in/rodriglu/",
   },
