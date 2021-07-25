@@ -1,39 +1,34 @@
 ---
-title: portfolio-work-2
+title: Quikapply
 date: "2015-05-28T22:40:32.169Z"
-category: web design
-tags: ['Front End', 'css', 'js', 'dashboard']
-image: './blog-image.jpg'
-description: "Radio buttons and checkboxes have long been components that cause users confusion. These components are often used in the same context, but look completely different."
+category: full stack development
+tags: ["Full Stack", "react", "typescript", "ruby", "ruby on rails"]
+image: "./cover.png"
+description: "A simple service that makes it easy to bring your printed application forms online and start receiving submissions."
 ---
 
-Radio buttons and checkboxes have long been components that cause users confusion. These components are often used in the same context, but look completely different. Designers and developers know the difference, but that’s because they learned it through their work. What about users who were never taught the difference?
+Quikapply is an easy to use service that you can use to bring your printed applcation forms online. It's flexible enough so that you can use it to design almost any application form and has support for the most common forms on user inputs. Each application published will have a public apply form that you can share with your target audience and start receiving submissions.
 
-The fact that users need to be taught the difference shows that these two components are not intuitive. Their appearance alone does not convey their slight differences in functionality. The visual cues themselves—a dot and checkmark—carry no specific meaning to users other than an option selection. Therefore, the existence of both radio buttons and checkboxes violates the UX principle of Consistency.
+## Application Overview
 
-Designers and developers have never questioned their co-existence because it’s the way it’s always been. However, if their co-existence causes users confusion and violates a UX principle, it merits a logical analysis and rethinking.
+![application overview](./design.png)
 
-A Violation of Consistency
---------------------------
+## Section Designer
 
-The UX principle of Consistency states that components with similar functionality and same usage should have a uniform appearance. Radio buttons and checkboxes have a similar function and are used in the same context, but there’s nothing uniform about their appearance.
+![application overview](./section-designer.png)
 
-Radio buttons represent mutually exclusive selections, while checkboxes represent mutually inclusive ones. Both are commonly used together on forms to select options from a list. However, a radio button is a circle with a dot inside, while a checkbox is a square with a checkmark inside—two different visual cues.
+## Input Picker/Customizer
 
-Some might say that their functions are different, so they should look different. But to be precise, their functions are only slightly different, and they both have the same usage, which is not enough to justify a different appearance. Doing so presents an inconsistency that can perplex users.
+![application overview](./input-picker.png)
 
-Mutual Exclusivity/Inclusivity Is Not a User Concern
-----------------------------------------------------
+## Apply Form
 
-If you ask the typical user what a mutually exclusive or inclusive option is, they probably wouldn’t be able to tell you. That’s because they don’t think about mutual exclusivity or inclusivity when they use an interface. Only designers and developers think about this because they have to design the interface.
+![apply form](./apply.png)
 
-Users merely read the labels and select the options they want. They’re focused on what the labels say, not component functionality. Therefore, mutual exclusivity and inclusivity should be indicated in the labels they read, not the components themselves. Designers and developers are imposing their way of thinking onto the user.
+## Project Overview
 
-How Users Know They Can Select One or Multiple
-----------------------------------------------
+Going into this project I already had a solid understading of using react and redux however I wanted to learn how to use react with typescript instead of vanilla javascript, and I also wanted to learn what seems to now be the recommended way of using redux - redux-toolkit.
 
-The label on the components often indicates whether users can select multiple options or just one. When users can select multiple options, the label is worded in plural form. When users can only select one option, the label is worded in the singular form. Make sure you use the correct noun form when you label mutually exclusive and inclusive components. It’s easy to forget about the labels, but they’re what matters most.
+I wanted to focus as much as I could on the frontend so I decided to use Ruby on Rails for the backend since still to this day it's the backend framework I'm most familiar and comfortable with.
 
-Label noun forms are a clearer cue for mutual exclusivity/inclusivity than a checkmark and a dot. A checkmark and a dot do not signify mutual exclusivity/inclusivity other than by convention that’s familiar to only designers, developers, and tech-savvy users. Regular users who see the different components used in the same context will wonder what the visual differences mean. The inconsistency isn’t severe enough to derail their task, but it certainly diverts their attention.
-
-
+All in all, after working on this small project I now have a solid understanding of using react with typescript and using redux-toolkit and actually from here on I don't see myself ever using react without typescript 😀.

@@ -44,7 +44,7 @@ const Footer = () => {
             </div>
           </FooterBody>
           <div className="box">
-            <SubRight> Never forget, the world is yours!. </SubRight>
+            <SubRight> Never forget, the world is yours! </SubRight>
             <CopyRight className="text-dark">
               ©
               <span>
