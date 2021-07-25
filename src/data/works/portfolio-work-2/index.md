@@ -31,7 +31,7 @@ Quikapply is an easy to use service that you can use to bring your printed applc
 \
 &nbsp;
 
-## Project Overview
+# Project Overview
 
 Going into this project I already had a solid understading of using react and redux however I wanted to learn how to use react with typescript instead of vanilla javascript, and I also wanted to learn what seems to now be the recommended way of using redux - redux-toolkit.
 

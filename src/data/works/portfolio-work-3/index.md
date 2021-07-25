@@ -7,44 +7,46 @@ image: "./cover.png"
 description: "Get an overview of how I went about designing and developing this shopping and shipping service for a local business who wanted to target both web and mobile platforms."
 ---
 
+![project cover](./cover.png)
+
 For this project the client was only able to convey the initial idea, nothing concrete was given – just an idea. As such I had to take the initiative to plan out most of the features for both web and mobile platforms.
 
 \
 &nbsp;
 
-## Problem Statement
+# Problem Statement
 
 Shopping and shipping from the US to Belize has always been a confusing and inefficient process, most of the time being impractical for most Belizeans.
 
 \
 &nbsp;
 
-## Solution
+# Solution
 
 An intuitive and modern experience driven by two platforms – web and mobile. A platform that encompasses all the most vital features essential to any international shopping and shipping service:
 
-### Link submissions
+## Link submissions
 
-### Catalog ordering
+## Catalog ordering
 
-### Order estimation
+## Order estimation
 
-### Order tracking
+## Order tracking
 
-### Invoices/receipts
+## Invoices/receipts
 
-### Order updates (email & push notifications)
+## Order updates (email & push notifications)
 
-### Customer dashboard
+## Customer dashboard
 
-### Admin dashboard
+## Admin dashboard
 
-### And much more…
+## And much more…
 
 \
 &nbsp;
 
-## Project structure & architecture
+# Project structure & architecture
 
 ![aws architecture overview](./aws.png)
 
@@ -70,7 +72,7 @@ I still have it down as a goal of mine to one day develop and app using its nati
 \
 &nbsp;
 
-## Conclusion
+# Conclusion
 
 This was a very challenging project to work on mostly for the fact that I was the only one working on it. As such I had to make some tradeoffs, some of which I’m not too proud of.
 
