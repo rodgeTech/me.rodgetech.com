@@ -5,6 +5,7 @@ category: Full stack/mobile development
 tags: ["Full stack", "react", "react native", "ruby on rails", "aws"]
 image: "./cover.png"
 description: "Get an overview of how I went about designing and developing this shopping and shipping service for a local business who wanted to target both web and mobile platforms."
+url: https://rapidboxing.com/
 ---
 
 ![project cover](./cover.png)

@@ -5,6 +5,7 @@ category: full stack development
 tags: ["Full Stack", "react", "typescript", "ruby", "ruby on rails"]
 image: "./cover.png"
 description: "A simple service that makes it easy to bring your printed application forms online and start receiving submissions."
+url: https://quikapply.com
 ---
 
 Quikapply is an easy to use service that you can use to bring your printed applcation forms online. It's flexible enough so that you can use it to design almost any application form and has support for the most common forms on user inputs. Each application published will have a public apply form that you can share with your target audience and start receiving submissions.

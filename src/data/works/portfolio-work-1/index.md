@@ -4,6 +4,7 @@ tags: ["react native", "node js", "ruby on rails"]
 category: mobile development
 image: "./cover.png"
 date: "2015-05-01T22:12:03.284Z"
+url: https://play.google.com/store/apps/details?id=com.bmmerce&hl=en&gl=US
 description: "My first react-native app. Discover how I went about designing and developing this app when I had no prior knowledge of react-native or app development in general."
 ---
 

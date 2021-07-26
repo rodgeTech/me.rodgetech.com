@@ -2,7 +2,7 @@ import React from "react"
 import { graphql } from "gatsby"
 import Layout from "../../components/layout"
 import SEO from "../../components/seo"
-import { Calendar } from "react-feather"
+import { Calendar, ExternalLink } from "react-feather"
 
 import {
   Intro,
@@ -11,7 +11,7 @@ import {
   SmallText,
   ArticleBody,
 } from "../../components/styled/posts"
-import { ContainerLayout } from "../../components/common"
+import { ContainerLayout, UnderLink } from "../../components/common"
 
 const portfolioWork = ({ data, pageContext, location }) => {
   const work = data.markdownRemark
@@ -29,10 +29,27 @@ const portfolioWork = ({ data, pageContext, location }) => {
             <ArticlePost>
               <header>
                 <Title>{work.frontmatter.title}</Title>
-                {/* <SmallText> 
-                  <Calendar className="align-middle text-primary" width="18" height="18" /> 
-                  <span className="align-middle"> date published : {work.frontmatter.date} </span>
+                {/* <SmallText>
+                  <Calendar
+                    className="align-middle text-primary"
+                    width="18"
+                    height="18"
+                  />
+                  <span className="align-middle">
+                    {" "}
+                    date published : {work.frontmatter.date}{" "}
+                  </span>
                 </SmallText> */}
+                <SmallText>
+                  <UnderLink href={work.frontmatter.url} target="_blank">
+                    <ExternalLink
+                      className="align-middle text-primary"
+                      width="18"
+                      height="18"
+                    />
+                    <span className="align-middle"> View live project</span>
+                  </UnderLink>
+                </SmallText>
               </header>
 
               <ArticleBody dangerouslySetInnerHTML={{ __html: work.html }} />
@@ -63,6 +80,7 @@ export const data = graphql`
         date(formatString: "MMMM DD, YYYY")
         description
         time
+        url
       }
     }
   }
