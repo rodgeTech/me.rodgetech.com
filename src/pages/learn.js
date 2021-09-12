@@ -12,7 +12,7 @@ const LearnCodePage = () => (
         <Title>Learn code with me</Title>
         <Text>
           Learning code is a never ending process. The moment you stop learning
-          is the momemt you render yourself obselete in this ever changing and
+          is the moment you render yourself obselete in this ever changing and
           evolving industry.
         </Text>
       </Intro>

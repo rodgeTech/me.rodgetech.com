@@ -41,11 +41,7 @@ const Navbar = ({ siteTitle }) => (
               </Link>
             </li>
             <li>
-              <Link
-                to="/learnCode"
-                className="lined-link"
-                activeClassName="active"
-              >
+              <Link to="/learn" className="lined-link" activeClassName="active">
                 {" "}
                 <Code /> <span> Learn Code </span>{" "}
               </Link>
