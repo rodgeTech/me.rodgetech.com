@@ -1,8 +1,8 @@
 import React from "react"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import { ContainerLayout, Title, Intro } from "../components/common"
-import { Text } from "../components/about/style"
+import { ContainerLayout, Intro } from "../components/common"
+import { Text, Title } from "../components/about/style"
 
 const LearnCodePage = () => (
   <Layout>
