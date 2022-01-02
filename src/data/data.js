@@ -44,6 +44,7 @@ module.exports = {
   SiteSocialLinks: {
     github: "https://github.com/luisrodge",
     linkedin: "https://www.linkedin.com/in/rodriglu/",
+    codingclub: "https://www.belizecodingclub.org",
   },
   SiteAddress: {
     city: "Santa Elena",
