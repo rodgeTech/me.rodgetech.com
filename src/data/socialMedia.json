@@ -11,7 +11,17 @@
   },
   {
     "id": 2,
+    "name": "YouTube",
+    "url": "https://www.youtube.com/channel/UCMsXEjXW1iH7wTAanqijH6w"
+  },
+  {
+    "id": 3,
     "name": "Coding Club",
-    "url": "https://www.club.rodgetech.com"
+    "url": "https://club.rodgetech.com"
+  },
+  {
+    "id": 5,
+    "name": "Learn Code",
+    "url": "https://code.rodgetech.com"
   }
 ]
