@@ -53,13 +53,13 @@ const Navbar = ({ siteTitle }) => (
             </li>
             <li>
               <Link
-                to="https://code.rodgetech.com/"
+                to="https://rodgetech.com/"
                 className="lined-link"
                 activeClassName="active"
                 target="_blank"
               >
                 {" "}
-                <Code /> <span> Learn Code </span>{" "}
+                <Code /> <span> Hire me</span>{" "}
               </Link>
             </li>
           </NavbarList>

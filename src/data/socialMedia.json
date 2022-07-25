@@ -12,6 +12,11 @@
   {
     "id": 2,
     "name": "Coding Club",
-    "url": "https://www.club.rodgetech.com"
+    "url": "https://club.rodgetech.com"
+  },
+  {
+    "id": 3,
+    "name": "Learn Code",
+    "url": "https://code.rodgetech.com"
   }
 ]
