@@ -4,7 +4,8 @@ module.exports = {
   SiteLogoText: "rodgeTech",
   SiteAuthor: "Luis Rodriguez",
   SiteDescription: "Full Stack Developer",
-  defaultDescription: "Software engineer!",
+  defaultDescription:
+    "I'm A Full Stack Developer With A Burning Passion For All Things Coding And Tech",
   githubApiQuery: `query ($number_of_repos: Int!) {
     viewer {
       name
@@ -42,7 +43,7 @@ module.exports = {
     number_of_repos: 12,
   },
   SiteSocialLinks: {
-    github: "https://github.com/luisrodge",
+    github: "https://github.com/rodgeTech",
     linkedin: "https://www.linkedin.com/in/rodriglu/",
     codingclub: "https://www.belizecodingclub.org",
   },
