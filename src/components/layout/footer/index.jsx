@@ -46,13 +46,7 @@ const Footer = () => {
           <div className="box">
             <SubRight> Never forget, the world is yours! </SubRight>
             <CopyRight className="text-dark">
-              ©
-              <span>
-                {" "}
-                {new Date().getFullYear()}, Built with {` `}
-                <a href="https://www.gatsbyjs.org">Gatsby</a>{" "}
-              </span>
-              , Thanks for stopping by - {data.SiteAuthor}{" "}
+              Thanks for stopping by - {data.SiteAuthor}{" "}
             </CopyRight>
           </div>
         </ContainerLayout>

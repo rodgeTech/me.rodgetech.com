@@ -13,25 +13,25 @@ export const NavbarLogo = styled.div`
 `
 
 export const NavbarElement = styled.div`
-  display: grid;
-  grid-template-columns: 1fr 1.8fr;
-  align-items: center;
+  text-align: center;
+  padding-top: 30px;
+
   @media (max-width: ${variables.breakpointPhone}) {
-    grid-template-columns: 1fr;
-    text-align: center;
     width: 100%;
   }
 `
 
 export const NavbarList = styled.ul`
-  padding-left: 0;
-  display: grid;
-  grid-template-columns: repeat(5, 1fr);
+  padding: 0;
+  margin: 0;
   list-style: none;
+  li {
+    display: inline-block;
+  }
   > li a {
     font-size: 1.2rem;
     color: #232323;
-    padding: 0.5rem 0.2rem;
+    padding: 0.5rem 1rem;
     margin: 0 1rem;
     text-decoration: none;
     vertical-align: middle;

@@ -25,27 +25,16 @@ const About = () => {
                 fluid={data.placeholderImage.childImageSharp.fluid}
                 alt="user photo"
               />
-              <SubTitle> Full Stack Developer</SubTitle>
             </div>
             <div>
               <Title> Hello, I’m Luis </Title>
               <Text>
-                {" "}
-                I'm a full stack developer hailing from{" "}
-                <b className="text-primary lined-link">Belize</b> living in Cayo
-                with a burning 🔥 passion for all things coding and tech.{" "}
+                I'm a developer with a burning 🔥 passion for all things coding
+                and tech. I like to build cool stuff through the power of code.
+                My Favorite Technologies Right Now Are: React.Js, Typescript,
+                GraphQL, And AWS.
               </Text>
-              <Text>
-                {" "}
-                I love working with modern web technologies, and building small
-                to medium size projects for the purpose of learning.
-              </Text>
-              <Text>
-                {" "}
-                My favorite technologies right now are: React.js, Typescript,
-                GraphQL, Node.js, and PostgreSQL. This is also currently my go
-                to stack.
-              </Text>
+
               <ResumeButton href="resume.pdf" target="_blank">
                 {" "}
                 Download resume{" "}
