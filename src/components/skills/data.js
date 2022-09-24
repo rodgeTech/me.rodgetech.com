@@ -44,6 +44,11 @@ export const data = [
             nodeSettings: { fill: am5.color("#468ad2") },
             value: 1,
           },
+          {
+            name: "Tailwind CSS",
+            nodeSettings: { fill: am5.color("#468ad2") },
+            value: 1,
+          },
         ],
       },
       {
