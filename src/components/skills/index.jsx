@@ -23,7 +23,7 @@ export default function Skills() {
     // Add title
     let title = container.children.push(
       am5.Label.new(root, {
-        text: "MY SKILLS",
+        text: "Technologies",
         textAlign: "center",
         x: am5.p50,
         y: am5.p50,

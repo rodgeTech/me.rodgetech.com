@@ -2,7 +2,7 @@ import * as am5 from "@amcharts/amcharts5"
 
 export const data = [
   {
-    name: "COFFEE",
+    name: "TECHNOLOGIES",
     nodeSettings: { fill: am5.color(0xaaaaaa) },
     children: [
       {
